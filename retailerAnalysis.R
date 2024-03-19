@@ -446,8 +446,8 @@ keeps %>%
            fill = "grey") +
   theme_classic() +
   ggtitle("Yearly Summary") +
-  xlab("Month") +
-  ylab("Number") +
+  xlab("Number") +
+  ylab("Category") +
   scale_x_continuous(labels = scales::label_number()) +
   theme(axis.title = element_text(size = 15, face = "bold"),
         axis.text = element_text(size = 10),
